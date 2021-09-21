@@ -1,16 +1,16 @@
 <template>
-  <section id="projet" class="project-section">
+  <section id="projets" class="project-section">
     <v-container>
       <v-row>
         <v-col>
-          <h1>Projet</h1>
+          <h1 class="space">Projet</h1>
         </v-col>
       </v-row>
       <v-row class="justify-space-around mb-8 mt-4">
         <v-card
           v-for="project in projects"
           :key="project.name"
-          class=""
+          class="cards"
           max-width="300"
           
         >
@@ -27,7 +27,7 @@
 
           <v-card-actions>
             <v-btn
-              color="black"
+              color="#F6AB58"
               text
               :href="project.github" target="_blank"
             >
@@ -53,10 +53,10 @@ export default {
           image: 'https://raw.githubusercontent.com/Sanitc/phoikos/master/assets/images/logo/%C3%A9t%C3%A9.png'
         },
         {
-          name: 'Portefolio',
-          github: 'https://github.com/Sanitc/phoikos',
-          description: "Portefolio réalisé en Vue.js afin d'apprendre ce framework",
-          image: 'https://raw.githubusercontent.com/Sanitc/phoikos/master/assets/images/logo/%C3%A9t%C3%A9.png'
+          name: 'Autres projets',
+          github: 'https://github.com/Sanitc?tab=repositories',
+          description: "cette app...",
+          image: 'https://raw.githubusercontent.com/Sanitc/website/main/src/assets/img/projet/portefolio-projet.png'
         },
       ]
     }
@@ -74,12 +74,20 @@ export default {
 
 <style scoped>
 .project-section {
-  background-color: #FFE58F;
+  background-color: #E7EAFB;
+  padding-bottom: 17%;
 }
 .v-image {
   border-bottom: 1px solid;
+  border-start-start-radius: 10px;
 }
-.font{
-  color:#ffe58f
+
+.cards{
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px #ADAFBC;
+}
+
+.space{
+  padding-bottom: 5%;
 }
 </style>

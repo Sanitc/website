@@ -1,19 +1,18 @@
 <template>
   <Layout>
-    <About />
+    <About/>
     <Projects/>
     <Skill/>
     <Education />
-    <Contact />
   </Layout>
 </template>
 
 <script>
-import About from '@/components/About.vue'
-import Projects from '@/components/Projects.vue'
-import Skill from '@/components/Skill.vue'
-import Education from '@/components/Education.vue'
-import Contact from '@/components/Contact.vue'
+import About from '@/pages/About.vue'
+import Projects from '@/pages/Projects.vue'
+import Skill from '@/pages/Skill.vue'
+import Education from '@/pages/Education.vue'
+
 
 export default {
   metaInfo: {
@@ -24,7 +23,6 @@ export default {
     Projects,
     Skill,
     Education,
-    Contact
   }
 }
 </script>
