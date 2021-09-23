@@ -31,7 +31,7 @@
         <v-col sm="6" offset-sm="3" class="d-flex justify-space-around">
            
               <g-image alt="Example image" src="~/assets/img/langue/france.png" class="img-lang2 col-sm"/>   <br/>
-              <v-rating class="col-sm"
+            <!--  <v-rating class="col-sm"
                 color="black"
                 background-color="black"
                 empty-icon: icons.iconempty
@@ -43,9 +43,9 @@
                 size="40"
                 value="4.5"
               ></v-rating> 
-            
+            -->
               <g-image alt="Example image" src="~/assets/img/langue/uk.png" class="img-lang2 col-sm"/>   <br/>
-              <v-rating class="col-sm"
+            <!--  <v-rating class="col-sm"
                 color="black"
                 background-color="black"
                 empty-icon: icons.iconempty
@@ -57,10 +57,10 @@
                 size="40"
                 value="3"
               ></v-rating> 
-                      
+            -->          
             
               <g-image alt="Example image" src="~/assets/img/langue/spain.png" class="img-lang2 col-sm"/>   <br/>
-              <v-rating class="col-sm"
+            <!--  <v-rating class="col-sm"
                 color="black"
                 background-color="black"
                 empty-icon: icons.iconempty
@@ -72,7 +72,7 @@
                 size="40"
                 value="3"
               ></v-rating> 
-            
+            -->
         </v-col>
       </v-row>
     </v-container>
@@ -118,6 +118,10 @@
 }
 
 .img-lang:hover{
+ transform: scale(1.2); 
+}
+
+.img-lang2:hover{
  transform: scale(1.2); 
 }
 

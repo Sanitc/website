@@ -88,6 +88,8 @@ export default {
   background-color: #CACDDC;
   border-color:#CACDDC;
   box-shadow: 10px 5px 5px #ADAFBC;
+  padding: 25px;
+  
   
 }
 </style>

@@ -1,6 +1,11 @@
 <template>
   <section id="a-propos" class="about-section">
-    <v-container class="relief2">
+    
+    <v-container>
+      <div class="center">
+          <h1>Portefolio - Clément Le Saint</h1>
+      </div>
+      <div class="center-about">
       <v-row>
         <v-col sm="4">
           <g-image class="img" alt="Example image" src="~/assets/img/photo/clement.png" width="380"/>
@@ -21,6 +26,7 @@
           </div>   
         </v-col>
       </v-row>
+      </div>
     </v-container>
   </section>
 </template>
@@ -28,12 +34,11 @@
 <style scoped>
 .about-section{
   background-color: #E7EAFB;
-  padding-bottom: 25%;
+  padding-bottom: 12%;
 }
 .img{
   border-radius: 15px;
   box-shadow: 10px 5px 5px #ADAFBC
-  
 }
 
 .relief{
@@ -47,13 +52,13 @@
   
 }
 
-
-.circle{
-  width: 200px;
-  height: 200px;
-  background-color: #57585E;
-  border-radius: 100%;
-  margin-top: 30px;
+.center-about{
+  padding-top: 5%;
+  padding-left: 10%
 }
-
+.center{
+  padding-top: 5%;
+  text-align: center;
+  font-size: 150%;
+}
 </style>
